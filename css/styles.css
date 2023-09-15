@@ -3,16 +3,17 @@ body {
 }
 
 .shapkasi {
-    background-image: url(../img/background_autor_left.png); /* Путь к картинке */
+    background-image: url(../img/background_autor_left.png); /* ГЏГіГІГј ГЄ ГЄГ Г°ГІГЁГ­ГЄГҐ */
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     background-position: top left;
-    background-attachment: fixed; /* Закрепляем изображение */
+    background-attachment: fixed; /* Г‡Г ГЄГ°ГҐГЇГ«ГїГҐГ¬ ГЁГ§Г®ГЎГ°Г Г¦ГҐГ­ГЁГҐ */
     box-shadow: inset 0px -10px 50px 50px black;
 }
 
 .tanasi {
-    background: url(../img/bg_money.png); /* Путь к картинке */
+    background: url(../img/bg_money.png); /* ГЏГіГІГј ГЄ ГЄГ Г°ГІГЁГ­ГЄГҐ */
     background-position: 0 0;
     background-size: cover;
     background-repeat: repeat;
