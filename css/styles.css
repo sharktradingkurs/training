@@ -1,25 +1,29 @@
 body {
     background-color: black;
+    font-size: 16px;
+    color: #edebeb;
 }
 
 .shapkasi {
-    background-image: url(../img/background_autor_left.png); /* Ïóòü ê êàðòèíêå */
+    background-image: url(../img/background_autor_left.png); /* Путь к картинке */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     background-position: top left;
-    background-attachment: fixed; /* Çàêðåïëÿåì èçîáðàæåíèå */
+    background-attachment: fixed; /* Закрепляем изображение */
     box-shadow: inset 0px -10px 50px 50px black;
 }
 
 .tanasi {
-    background: url(../img/bg_money.png); /* Ïóòü ê êàðòèíêå */
+    background: url(../img/bg_money.png); /* Путь к картинке */
     background-position: 0 0;
     background-size: cover;
     background-repeat: repeat;
     animation: animated-bg 50s linear infinite;
     width: 100%;
     box-shadow: inset 0px 0px 30px 30px black;
+    
+    color: #9e9e9e;
 }
     @keyframes animated-bg {
         from { background-position: 0 0; }
