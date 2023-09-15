@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+.shapkasi {
+    background-image: url(../img/background_autor_left.png); /* Путь к картинке */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    background-attachment: fixed; /* Закрепляем изображение */
+    box-shadow: inset 0px -10px 50px 50px black;
+}
+
+.tanasi {
+    background: url(../img/bg_money.png); /* Путь к картинке */
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: repeat;
+    animation: animated-bg 50s linear infinite;
+    width: 100%;
+    box-shadow: inset 0px 0px 30px 30px black;
+}
+    @keyframes animated-bg {
+        from { background-position: 0 0; }
+        to { background-position: 0 1000px; }
+    }
+
+/*
+.podval {
+    background-color: aquamarine;
+}
+*/
