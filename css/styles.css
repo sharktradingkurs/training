@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 764px;
+    min-height: 724px;
     background-position: top left;
     background-attachment: fixed; /* Закрепляем изображение */
     box-shadow: inset 0px -10px 50px 50px black;
@@ -35,3 +35,8 @@ body {
 .podval {
     color: #9e9e9e;
 }
+
+.inset_shadow_infoBox {
+    box-shadow: inset 0px 0px 8px 2px black;
+}
+
